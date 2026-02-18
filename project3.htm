@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Document</title>
+    <style>
+
+        *{
+            margin: 0%;
+            padding: 0%;
+            box-sizing: border-box;
+        }
+
+        body{
+            background-color: yellowgreen;
+            padding: 40px;
+        }
+
+        h1{
+            margin-bottom: 30px;
+            font-size: 50px;
+        }
+
+        .container {
+            max-width: 1200px;
+            margin: auto;
+            text-align: center;
+        
+        }
+        .image_container{
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px,1fr));
+            gap: 30px;
+            /* width: 100%;
+            height: auto;
+            border-radius: 5px;
+            box-shadow: 0 5px 16px gray; */
+            
+        }
+        .image_container img{
+            border-radius: 5px;
+            width: 100%;
+            height: auto;
+            border-radius: 10px;
+            box-shadow: 0 5px 16px rgb(25, 5, 5);
+            gap: 50px;
+        }
+    .image_container   img:hover {
+        /* transform: scale(0.5); */
+        /* transform: scale(0.95); */
+
+        transform: rotate(0.5turn);
+        
+        
+    }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1> Image Galaary😍😎</h1>
+        <div class="image_container">
+            <img src="img1.png">
+            <img src="img2.png">
+            <img src="img3.png">
+            <img src="img4.png">
+            <img src="img5.png">
+            <img src="img6.png">
+            <img src="image3 .png">
+            <img src="image2.png">
+            <img src="image1.png">  
+             
+            
+                
+        </div>
+    </div>
+</body>
+</html>
